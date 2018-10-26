@@ -1,0 +1,5 @@
+{
+  "name": "Just Simple SSG",
+  "description": "Attempt to make a very simple static site generator, that allows the addition or substitution of functionality, structure or purpose.",
+  "version": "1.0.0"
+}
