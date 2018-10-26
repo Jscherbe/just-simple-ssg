@@ -77,4 +77,4 @@ Note: Everything may need to be delayed for unknown async operations. So that
       The user can do what they like, such as analysis and generating items 
       themselves. Or fetching items from other sources.
 
-Speed: Speed will be a second level priority 
+Speed: Speed will be a second level priority  
