@@ -66,15 +66,15 @@ This is an app for local development not a server/application solution.
 - Use modules
 
 ## Stages of the application cycle
-1. Pre-Process: Time before the application
-2. Process: Create data tree 
+1. Pre: Time before the application
+2. Parse: Create data tree 
+2. Modify: Make any changes to the tree before templating
 3. Render: Run template methods for output
-4. Post-Process: Time after the app is done but hasn't printed the results
+4. Post: Time after the app is done but hasn't printed the results
+5. Complete: Time after the application has finished content is generated
 
 Note: Everything may need to be delayed for unknown async operations. So that
       The user can do what they like, such as analysis and generating items 
       themselves. Or fetching items from other sources.
 
 Speed: Speed will be a second level priority
-
-## How modules can alter and hook in
